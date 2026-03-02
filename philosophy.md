@@ -1,0 +1,3 @@
+Purpose of Subagent Creation: keep the information in the main agent clean. 
+Purpose of the Main Agent:The main agent should have detailed information about the target scripts, high-level information about the associated dependencies about the target scripts and the entire codebase, and the necessary and sufficent information about the implementation and the entire workflow. Thus, the main agent can:
+1. have sufficient information and context window for knowing the overall workflow and make the right decision on each step. 
