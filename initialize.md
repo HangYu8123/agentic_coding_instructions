@@ -73,4 +73,4 @@ if the file does not exist, create an empty file.
 if the file exists, do nothing. 
 if the file does not exist, create an empty file. 
 
-**Finally. add all the .md files other than the readme.md to .gitignore. **
+**Finally. add  code_instructions.md, debug_instructions.md, and initialize.md files to .gitignore**
