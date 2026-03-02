@@ -7,8 +7,10 @@ First go through the entire repo, keep what files exist in this repo in the meme
 Then, check the existence of the folliwing files:
 1. codebase_overview.md
 2. scripts_overview.md
-3. update_logs.md
-4. known_issues.md
+3. update_logs_auto_generated.md
+4. known_issues_auto_generated.md
+5. update_logs.md
+6. known_issues.md
 
 #Procedure 3
 Create a subagent, read through all the scripts in the code repo, understand them, and create a pipeline for the entire repo. The subagent should feed the pipeline of the code back to the main agent. 
@@ -46,9 +48,10 @@ Then:
 4. write the scripts_overview.md
   
 
-##3 known_issues.md:
+##3 known_issues_auto_generated.md:
 if the file exists, do nothing. 
-if the file does not exist, create an empty file, then:
+if the file does not exist, create an empty file.
+then:
 1. create a subagent (plan agent), go through the codebase_overview.md and scripts_overview.md, point out the weakness of the code architecture and all possible issues. report back to the main agent.
 2. create a subagent (code agent), go through the codebase_overview.md and scripts_overview.md, and then go through all the scripts one by one, find any pontial issues, code could lead to problems, errors, and bugs. find anything that could affect the code be 100% correct. find anything that prevent code being running 100% correct or function as expected. report back to main agent.
 3. the main agent summerize the reviews from step 1 and step 2, based on the information it has, use its best ablity to combine two reviews with only correct and fair part.
@@ -58,7 +61,16 @@ if the file does not exist, create an empty file, then:
 {Root causes (for example, what code/function is cause the problem )}
 {Consequences (what issues can this problem lead to)}. 
 
-##4 update_logs.md
+##4 update_logs_auto_generated.md
 get the git commit history, and create a file with the git commit history ( do not add any interpurtations, be faithful to the original contents) logs. 
 
 
+##5 known_issues.md:
+if the file exists, do nothing. 
+if the file does not exist, create an empty file.
+
+##6 known_issues.md:
+if the file exists, do nothing. 
+if the file does not exist, create an empty file. 
+
+**Finally. add  code_instructions.md, debug_instructions.md, and initialize.md files to .gitignore**
