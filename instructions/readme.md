@@ -27,4 +27,8 @@ following the instructions in @.github/instructions/workflow/initialize.instruct
 
 # Ongoing:
 
+The master.instructions.md is not working perfectly
+
+sometime it would not use the instructions.md sometimes if the user does not use the reuqest template
+
 create prompts for generating a .claude.md that logs all mistatkes that claude has made to prevent future errors in general. 
