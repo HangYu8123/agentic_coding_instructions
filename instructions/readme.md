@@ -23,11 +23,7 @@ following the instructions in @.github/instructions/workflow/initialize.instruct
 
 ## then it will automatically generates files that keeps logs of system overview, functionality updates, bug logs, known issues, and past Q&A. 
 
-## then, when you have new requests, the copilot agent should follow the corresponding instructions **If you want to be 100% sure that copilots follows the instructions**: 
-1. drag the instruction.md to the chat window
-2. drag the repo folder to the chat window if you have multiple repos in your workspace
-3. drag the files you want to modify to the chat window
-4. use the request templates in the general folder
+## then, when you have new requests, the copilot agent should follow the corresponding instructions (**If you want to be 100% sure that copilots follows the instructions**, drag the instruction.md to the chat window and use the request templates in the general folder)
 
 # Ongoing:
 

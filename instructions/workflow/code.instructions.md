@@ -1,7 +1,6 @@
 ---
 name: 'Code Implementation'
-description: 'Instructions for implementing new functionalities'
-applyTo: '**'
+description: 'Instructions for implementing, updating, and adding new functionalities'
 ---
 # add new functions to an existing repo
 **DO NOT TRY TO COMMIT CHANGES TO GITHUB**

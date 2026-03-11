@@ -1,7 +1,6 @@
 ---
 name: 'Query Repo'
 description: 'Instructions for answering questions about an existing repo'
-applyTo: '**'
 ---
 # Ask about an existing repo
 **DO NOT TRY TO COMMIT CHANGES TO GITHUB**

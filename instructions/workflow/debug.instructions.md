@@ -1,7 +1,6 @@
 ---
 name: 'Debug Workflow'
 description: 'Instructions for debugging and fixing bugs'
-applyTo: '**'
 ---
 # debug instructions
 **DO NOT TRY TO COMMIT CHANGES TO GITHUB**

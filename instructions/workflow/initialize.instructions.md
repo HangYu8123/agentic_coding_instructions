@@ -1,7 +1,6 @@
 ---
 name: 'Initialize Repo'
 description: 'Instructions for creating necessary files (codebase_overview, scripts_overview, update_logs, known_issues) to guide the entire agentic coding workflow for a new or existing repo'
-applyTo: '**'
 ---
 # create necessary files for guiding the entire agentic coding workflow
 

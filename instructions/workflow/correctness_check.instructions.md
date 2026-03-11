@@ -1,7 +1,6 @@
 ---
 name: 'Correctness Check'
 description: 'Instructions for examining, testing, and running an existing repo for 100% correctness and consistency'
-applyTo: '**'
 ---
 # EXAM THE EXISTING REPO FOR 100% CORRECTNESS AND CONSISTENCY
 **DO NOT TRY TO COMMIT CHANGES TO GITHUB**
