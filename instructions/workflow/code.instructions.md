@@ -1,12 +1,20 @@
+---
+name: 'Code Implementation'
+description: 'Instructions for implementing new functionalities'
+applyTo: '**'
+---
 # add new functions to an existing repo
-
+**DO NOT TRY TO COMMIT CHANGES TO GITHUB**
+**DO NOT WRITE SPAM FILES INTO THE REPO**
+**DO NOT USE SUDO**
 inputs:
 input 1: target functionalities
-input 2: preferred files
+input 2: important files (optional)
+input 3: target repo (optional)
 
-**BEFORE START**, the first step is to ask run command permissions. run a command in terminal to navigate to the repo directory.  
+**read through this entire file and follow the instructions carefully**. 
 
-When ask to implement new functionalities, always, first read the folliwing files (**REFER AS KEY MD FILES**):
+When ask to implement new functionalities, always, first read the folliwing files @.github/instructions/workflow (REFER AS KEY MD FILES):
 1. codebase_overview.md
 2. scripts_overview.md
 3. update_logs.md
@@ -15,8 +23,8 @@ Understand them, and keep them inside the memory.
 The main agent should through all files and scripts inside the repo and get a detailed understanding. 
 
 
-
-then, for implementing new functionalities to an existing codebase:
+#CREATE ONE TODO FOR EACH OF THE FOLLOWING STEPS
+then, for implementing new functionalities to an existing codebase, **CREATE ONE TODO FOR EACH STEP**:
 1. if preferred files are specified, the main agent should read through the preferred files, and understand them. then combine the understanded knowledge with the key md files. 
 2. the main agent creates a subgent (plan agent), pass the input information to the subagent. The subagent should also read through the key md files. Then based on the input information and the repo structure based on the key md files, read all scripts that could associated with the new functionalities. according to the input information and key md files, analysis the new functionalities and how to intergrate the new functionalites to the existing codebase. Then, the subagent should draft a plan that intergrates the new functionalities into the existing codebase and draft a diagram that intergrates the new functionalities to the codebase diagram, while maintaining the entire codebase performs stable, not introducing any new bugs, and would not repeate any known issues/bugs in known_issues.md. then the subagent feeds the plan and the implementation diagram back to the main agent.
 3. the main agent creates a subagent (plan agent, senior staff engineering role), pass the plan and the implementation diagram from the other subagent and input information to this subagent. The subagent should additionally read through the key md file and all scripts in this repo to get a comprehensive understand of the entire repo. If the plan involves any repo outside this repo, go to that repo, if there are codebase_overview.md and scripts_overview.md, read through them too. Then the subagent reviews the plan and the diagram based on the information it has from a senior staff engineer perspective, assess the plan's and the diagram's correctness and feasibility, making sure that the plan and the diagram can 100% achieves the new functionalities without breaking the current codebase. feed the review back to the main agent. 
@@ -32,7 +40,4 @@ then, for implementing new functionalities to an existing codebase:
 {Repo involved (what local repos are involved)}
 {Implementation ( what has been implemented to achieve the functionality)}
 {Achived (whether the functionality has been achieved)}
-
-
-
 

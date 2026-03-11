@@ -1,16 +1,23 @@
+---
+name: 'Initialize Repo'
+description: 'Instructions for creating necessary files (codebase_overview, scripts_overview, update_logs, known_issues) to guide the entire agentic coding workflow for a new or existing repo'
+applyTo: '**'
+---
 # create necessary files for guiding the entire agentic coding workflow
 
 #Procedure 1
 First go through the entire repo, keep what files exist in this repo in the memeory. 
 
 #Procedure 2
-Then, check the existence of the folliwing files:
+Then, check the existence of the folliwing files under instructions folder:
 1. codebase_overview.md
 2. scripts_overview.md
 3. update_logs_auto_generated.md
 4. known_issues_auto_generated.md
 5. update_logs.md
 6. known_issues.md
+if any of the above files do not exist, create an empty folder under instructions folder, named repo_info.
+
 
 #Procedure 3
 Create a subagent, read through all the scripts in the code repo, understand them, and create a pipeline for the entire repo. The subagent should feed the pipeline of the code back to the main agent. 
@@ -18,7 +25,7 @@ Create a subagent, read through all the scripts in the code repo, understand the
 
 #Procedure 4
 create/update the files in step 2 with the **follwoing specifications in the following order**. 
-
+under the repo_info folder. 
 
 ##1 codebase_overview.md:
 If the file does not exist, create an empty file, and set the pipeline to be the pipeline generate by Procedure 3.
@@ -73,4 +80,6 @@ if the file does not exist, create an empty file.
 if the file exists, do nothing. 
 if the file does not exist, create an empty file. 
 
-**Finally. add  code_instructions.md, debug_instructions.md, and initialize.md files to .gitignore**
+##7 past_Q&A.md:
+if the file exists, do nothing. 
+if the file does not exist, create an empty file. 
