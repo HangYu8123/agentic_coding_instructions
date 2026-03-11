@@ -13,7 +13,7 @@ To get the best experience, enable auto approve (** KEEP ANY CMDS THAT CAN DELET
 
 {
   "chat.instructionsFilesLocations": {
-    ".github/instructions": true,
+    ".github/instructions": true,  %% this should be the relative path to your repo if you have multi-repos in the ws
     ".claude/rules": true
   }
 }
